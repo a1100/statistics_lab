@@ -56,14 +56,7 @@ f.puts z.join("\n")
 f.close
 
 # put the data as the 0th element in the array and the zscores as the 1 element in the array
+# test
+puts "The standard deviation of the data is " +  standarddeviation.to_s 
+puts "The mean of the data is " + mean.to_s
 
-# "The standard deviation of the data is " +  standarddeviation.to_s 
-# "The mean of the data is " + mean.to_s
-
-nums = [3, 5, 8]
-letters = ["a", "b", "c"]
-
-nums.each.with_index do |num, i|
-	letter = letters[i]
-	puts i
-end
